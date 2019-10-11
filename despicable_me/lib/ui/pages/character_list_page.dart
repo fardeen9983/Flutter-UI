@@ -8,6 +8,18 @@ class CharacterListPage extends StatefulWidget {
 class _CharacterListPageState extends State<CharacterListPage> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      appBar: AppBar(
+        leading: Icon(
+          Icons.arrow_back_ios
+        ),
+        actions: <Widget>[
+          Padding(
+            padding: const EdgeInsets.only(right: 16.0),
+            child: Icon(Icons.search),
+          )
+        ],
+      ),
+    );
   }
 }
