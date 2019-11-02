@@ -20,6 +20,9 @@ class _CharacterListPageState extends State<CharacterListPage> {
           )
         ],
       ),
+      body: Column(
+        
+      ),
     );
   }
 }
